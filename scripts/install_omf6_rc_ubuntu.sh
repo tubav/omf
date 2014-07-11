@@ -7,7 +7,7 @@ function removeOldRuby {
 }
 
 function installNeededLibs {
- apt-get install -y build-essential libxml2-dev libxslt-dev libssl-dev
+ apt-get install -y curl build-essential libxml2-dev libxslt-dev libssl-dev
 }
 
 function installRuby {
