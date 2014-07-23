@@ -24,7 +24,7 @@ function installRuby {
 function installOmfRc {
  gem install -V omf_rc --no-ri --no-rdoc
  install_omf_rc -i -c
- sed -i  "s/localhost/fuseco.fokus.fraunhofer.de/g" /etc/omf_rc/config.yml
+ sed -i  "s/localhost/federation.av.tu-berlin.de/g" /etc/omf_rc/config.yml
 }
 
 function startOmfRc {
