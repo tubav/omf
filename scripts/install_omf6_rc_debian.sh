@@ -13,10 +13,10 @@ function installNeededLibs {
 function installRuby {
  \curl -L https://get.rvm.io | bash -s stable
  source /etc/profile.d/rvm.sh
- rvm install ruby-1.9.3-p286 --autolibs=4
- rvm use ruby-1.9.3-p286
+ rvm install ruby-1.9.3-p547 --autolibs=4
+ rvm use ruby-1.9.3-p547
  rvm gemset create omf
- rvm use ruby-1.9.3-p286@omf --default
+ rvm use ruby-1.9.3-p547@omf --default
 
  rvm current; ruby -v
 }
